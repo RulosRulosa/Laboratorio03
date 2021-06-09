@@ -1,9 +1,8 @@
 public class Computador {
         private String marca, modelo;
 
-    public Computador(String marca, String modelo) {
-        this.marca = marca;
-        this.modelo = modelo;
+    public Computador() {
+
     }
 
     public String getMarca() {
