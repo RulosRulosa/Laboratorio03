@@ -1,34 +1,27 @@
 public class Computador {
-    private String ram;
-    private int GBram, MhzRam;
+        private String marca, modelo;
 
-    public Computador(String ram, int GBram, int mhzRam) {
-        this.ram = ram;
-        this.GBram = GBram;
-        MhzRam = mhzRam;
+    public Computador(String marca, String modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
     }
 
-    public String getRam() {
-        return ram;
+    public String getMarca() {
+        return marca;
     }
 
-    public void setRam(String ram) {
-        this.ram = ram;
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 
-    public int getGBram() {
-        return GBram;
+    public String getModelo() {
+        return modelo;
     }
 
-    public void setGBram(int GBram) {
-        this.GBram = GBram;
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
     }
 
-    public int getMhzRam() {
-        return MhzRam;
-    }
 
-    public void setMhzRam(int mhzRam) {
-        MhzRam = mhzRam;
-    }
+
 }
